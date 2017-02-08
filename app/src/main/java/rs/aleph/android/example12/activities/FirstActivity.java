@@ -6,8 +6,7 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import rs.aleph.android.example12.R;
-import rs.aleph.android.example12.fragments.MasterFragment;
-import rs.aleph.android.example12.fragments.DetailFragment;
+
 
 // Each activity extends Activity class
 public class FirstActivity extends Activity implements MasterFragment.OnItemSelectedListener {

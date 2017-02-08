@@ -23,7 +23,16 @@
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
 
 
-        <activity android:name=".activities.FirstActivity" />
-    </application>
 
+    <activity
+        android:name=".activities.FirstActivity"
+
+        android:icon="@mipmap/ic_launcher">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+</application>
 </manifest>

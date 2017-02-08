@@ -30,14 +30,13 @@ private Kategorijama kategorijama;
 
 
 
-    public Jelo(int id, String slika, String ime, String opis, String sastojci, int kalorije, double cena, Kategorijama kategorijama) {
+    public Jelo(int id, String slika, String ime, String opis, String sastojci,  Kategorijama kategorijama) {
         this.id=id;
         this.slika = slika;
         this.ime = ime;
         this.opis = opis;
         this.sastojci = sastojci;
-        this.kalorije = kalorije;
-        this.cena = cena;
+
 
         this.kategorijama=kategorijama;
 

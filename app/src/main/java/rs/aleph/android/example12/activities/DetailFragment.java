@@ -21,8 +21,7 @@ import java.security.Provider;
 import java.util.List;
 
 import rs.aleph.android.example12.R;
-import rs.aleph.android.example12.provider.JeloProvajder;
-import rs.aleph.android.example12.provider.KategorijamaProvider;
+
 
 // Each fragment extends Fragment class
 public class DetailFragment extends Fragment {
@@ -79,14 +78,12 @@ public class DetailFragment extends Fragment {
         category.setAdapter(adapter);
         category.setSelection((int)JeloProvajder.getJeloById(position).getKategorijama().getId());
 
-        TextView tvCena = (TextView) getView().findViewById(R.id.tv_cena);
-        tvCena.setText(JeloProvajder.getJeloById(position).getCena());
+
 
         TextView tvSastojci = (TextView) getView().findViewById(R.id.tv_sastojci);
         tvSastojci.setText(JeloProvajder.getJeloById(position).getSastojci());
         // Finds "btnBuy" Button and sets "onClickListener" listener
-        TextView tvKalorije = (TextView) getView().findViewById(R.id.tv_kalorije);
-        tvKalorije.setText(JeloProvajder.getJeloById(position).getKalorije());
+
 
     }
 
@@ -158,14 +155,12 @@ public class DetailFragment extends Fragment {
         category.setSelection((int)JeloProvajder.getJeloById(position).getKategorijama().getId());
 
 
-        TextView tvCena = (TextView) getView().findViewById(R.id.tv_cena);
-        tvCena.setText(JeloProvajder.getJeloById(position).getCena());
+
 
         TextView tvSastojci = (TextView) getView().findViewById(R.id.tv_sastojci);
         tvSastojci.setText(JeloProvajder.getJeloById(position).getSastojci());
         // Finds "btnBuy" Button and sets "onClickListener" listener
-        TextView tvKalorije = (TextView) getView().findViewById(R.id.tv_kalorije);
-        tvKalorije.setText(JeloProvajder.getJeloById(position).getKalorije());
+
 
 
 
