@@ -17,8 +17,8 @@
         android:id="@+id/tv_ime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@id/iv_image"/>
 
+    android:layout_below="@id/iv_image"/>
     <!-- TextView displays text to the user. -->
     <TextView
         android:id="@+id/tv_opis"
@@ -26,14 +26,15 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/iv_image"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/tv_ime"/>
+        />
 
     <!-- Spinners provide a quick way to select one value from a set. -->
     <Spinner
         android:id="@+id/sp_category"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/iv_image"
+        android:layout_below="@id/tv_ime"
+
         android:layout_alignParentLeft="true"/>
 
     <!-- TextView displays text to the user. -->
@@ -41,8 +42,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/tv_sastojci"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:layout_below="@id/tv_ime"
+    android:layout_toRightOf="@id/tv_opis"/>
 
 </RelativeLayout>
