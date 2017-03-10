@@ -5,4 +5,27 @@
     <string name="open_browser">Open Web Browser</string>
     <string name="start_2activity">Start an ActivityT</string>
     <string name="open_camera">Open Camera</string>
+    <string name="drawer_home" />
+    <string name="drawer_home_long" />
+    <string name="drawer_settings" />
+    <string name="drawer_about" />
+    <string name="drawer_settings_long" />
+    <string name="drawer_about_long" />
+    <string name="fragment_master_action_create" />
+    <string name="fragment_detal_action_update" />
+    <string name="fragment_detal_action_delete" />
+    <string name="drawer_open" />
+    <string name="drawer_close" />
+    <string name="pref_sync" />
+    <string name="pref_sync_summ" />
+    <string name="pref_sync_title" />
+    <string name="pref_syncConnectionType" />
+    <string name="pref_sync_list" />
+    <string name="activity_settings_name" />
+    <string name="dialog_about_title" />
+    <string name="dialog_about_message" />
+    <string name="dialog_about_yes" />
+    <string name="dialog_about_no" />
+    <string name="activity_first_toolbar_title" />
+    <item name="drawerPane" type="id" />
 </resources>
